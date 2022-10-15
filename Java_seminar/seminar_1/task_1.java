@@ -13,27 +13,32 @@ package Java_seminar.seminar_1;
 
 public class task_1 {
     public static void main(String[] args) {
-        int a = 2;
+        int a = 1;
         int b = 7;
         int c = 2;
-        int d = 1;
-
-        while (a < b){ 
-            String res_string = "";
-            if (a < b){
-                int result = task_1_models.K1(a, c);
-                a = result * c;
-                res_string += "K1";
-                    if (result > b){
-                        result = task_1_models.K2(result, d);
-                        result = result + d;
-                        res_string += "K2";
-                            if (result == b){
-                            }     
-                    }              
-            }
-        System.out.println(res_string);    
+        int d = 1;      
+        int k1 = 0;  
+        int count1 = 0;
+        int count2 = 0;
+        if (a > b){
+            System.out.println("Нет ответа");
         }
-
+        while (a < b) { 
+            k1 = a;
+            a = a * c;
+            count1 +=1; 
+        if (a > b) {  
+            while (k1 < b) {
+                k1 = k1 + d; 
+                count2 +=1;       
+            } 
+        for (int i = 0; i < (count1 - 1); i++) {
+            System.out.print("K1");
+        }     
+        for (int i = 0; i < (count2); i++) {
+            System.out.print("K2");
+        }    
+        }
+        }
     }
 }
