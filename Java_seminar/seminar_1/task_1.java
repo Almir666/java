@@ -13,7 +13,7 @@ package Java_seminar.seminar_1;
 
 public class task_1 {
     public static void main(String[] args) {
-        int a = 1;
+        int a = 5;
         int b = 7;
         int c = 2;
         int d = 1;      
@@ -21,7 +21,7 @@ public class task_1 {
         int count1 = 0;
         int count2 = 0;
         if (a > b){
-            System.out.println("Нет ответа");
+            System.out.println("Нет решения");
         }
         while (a < b) { 
             k1 = a;
