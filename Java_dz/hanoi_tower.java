@@ -2,7 +2,7 @@ package Java_dz;
 
 public class hanoi_tower {
     public static void main(String[] args) {
-        int n = 3;  
+        int n = 5;  
         tower_hanoi(n, 'A', 'B', 'C');
     }
     public static void tower_hanoi(int N, char oneShaft, char twoShaft, char threeShaft) {

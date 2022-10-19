@@ -2,7 +2,7 @@ package Java_dz;
 
 public class hanoi_tower_2 {
     public static void main(String[] args) {
-        move_tower(2, 'A', 'B', 'C');
+        move_tower(3, 'A', 'B', 'C');
     }
     public static void move(char ster1, char ster2) {
             System.out.println("из стержня " + ster1 + " в стержень " + ster2);
