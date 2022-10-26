@@ -18,7 +18,7 @@ public class task_1 {
             maxLength = N;
         } else {
             maxLength = M;
-        }
+        }  
         while (maxLength > 0) {
             if (array1[N - 1] == array2[M - 1]) {
                 count++;
@@ -32,9 +32,9 @@ public class task_1 {
                 else{
                     M--;
                 }
-            }   
-            System.out.println(count);
-        }  
-    }
+            }  
+        System.out.println(count);  
+        }     
+    }   
 }
 

@@ -19,6 +19,7 @@ public class test {
 
             PrintWriter pw = new PrintWriter(f);
             pw.println("Тестирую работу с файлами");
+            pw.println("Смотрим");
             pw.close();
         } catch(IOException e) {
             System.out.println("error" + e);

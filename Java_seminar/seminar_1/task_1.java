@@ -13,8 +13,8 @@ package Java_seminar.seminar_1;
 
 public class task_1 {
     public static void main(String[] args) {
-        int a = 5;
-        int b = 7;
+        int a = 2;
+        int b = 11;
         int c = 2;
         int d = 1;      
         int k1 = 0;  
@@ -27,7 +27,7 @@ public class task_1 {
             k1 = a;
             a = a * c;
             count1 +=1; 
-        if (a > b) {  
+        if (a >= b) {  
             while (k1 < b) {
                 k1 = k1 + d; 
                 count2 +=1;       
